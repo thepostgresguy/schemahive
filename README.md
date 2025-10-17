@@ -42,41 +42,6 @@ schemahive/
 	CONTRIBUTING.md
 ```
 
-## Folder structure (create locally)
-
-The layout above matches a recommended repository layout. To create the full folder tree locally from the repository root, run the following command on macOS/Linux (zsh/bash):
-
-```bash
-# Create the full folder tree used in this README
-mkdir -p \
-	apps/api \
-	apps/ui \
-	apps/workers \
-	packages/core \
-	packages/ai-engine \
-	packages/connectors \
-	packages/rules \
-	packages/sdk-js \
-	packages/sdk-py \
-	packages/cli \
-	data/samples \
-	data/migrations \
-	infra/docker \
-	infra/k8s \
-	infra/terraform \
-	configs/dev \
-	configs/prod \
-	docs \
-	scripts \
-	tests/e2e \
-	tests/api \
-	tests/ui \
-	tests/connectors \
-	.github/workflows
-```
-
-Tip: For Windows, use PowerShell's New-Item -ItemType Directory or WSL.
-
 ## Quick Start
 
 ```bash

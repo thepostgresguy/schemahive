@@ -1,0 +1,14 @@
+# pyproject.toml at repo root
+[project]
+name = "schemahive-monorepo"
+version = "0.0.0"
+requires-python = ">=3.14"
+
+[tool.uv.workspace]
+members = ["packages/*"]
+exclude = ["packages/sdk-js"]
+
+# Optional: declare shared dev tools here if you want to run from the root
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"

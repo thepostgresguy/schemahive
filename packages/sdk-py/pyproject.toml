@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "schemahive-sdk-py"
+version = "0.1.0"
+description = "Python SDK and CLI for SchemaHive"
+authors = [ { name = "SchemaHive" } ]
+license = { text = "MIT" }
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]

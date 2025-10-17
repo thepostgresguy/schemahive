@@ -1,0 +1,14 @@
+{
+  "name": "@schemahive/sdk-js",
+  "version": "0.1.0",
+  "description": "JavaScript/TypeScript client SDK for SchemaHive",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "echo \"No tests configured\" && exit 0"
+  },
+  "author": "SchemaHive",
+  "license": "MIT",
+  "devDependencies": {}
+}
